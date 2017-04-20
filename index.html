@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!- Codecraft Day 13 bootstrap investigation ->
+<!-- Codecraft Day 13 bootstrap investigation -->
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -8,15 +8,17 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
+	<!-- Container  to describe the 3 bootstraps components discussed in this page -->
 	<div class="container">
 		<h1 class="text-center">BOOTSTRAP COMPONENTS</h1>
 		<p class="text-center">Jumbotron</p>
 		<p class="text-center">Page Header</p>
 		<p class="text-center">Well</p>
 	</div>
+	<!-- Jumbotron outside container is full width, also added a dummy button -->
 	<div class="jumbotron">
-  		<div class="container">
-  			<div class="row">
+			<div class="container">
+				<div class="row">
 				<div class="col-xs-12">
 					<h1>Jumbotron Header Outside Container Full Width </h1>
 					<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -25,6 +27,7 @@
 			</div>
  		</div>
 	</div>
+	<!-- Jumbotron inside container is NOT full width, also added a dummy button -->
 	<div class="container">
 		<div class="jumbotron">
 			<div class="row">
@@ -36,6 +39,7 @@
 			</div>
 		</div>
 	</div>
+	<!-- Page header, also added description paragraph -->
 	<div class="container">
 		<div class="page-header text-center">
 			<h1 class=>Page Header <small>Small subtext for page header</small></h1>
@@ -43,11 +47,14 @@
 			</p>
 		</div>
 	</div>
+	<!-- Well Examples -->
+	<!-- Added a Page header for cosmetic reasons, just to present text on Wells, example 1 -->
 	<div class="container">
 		<div class="page-header">
 			<h1 class="text-center">Well <small>Use this as a simple effect on an element to give it an inset effect.</small></h1>
 		</div>
 	</div>	
+	<!-- Demonstrating Well with a row showing 3 columns of large wells -->
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-4">
@@ -61,6 +68,7 @@
 			</div>
 		</div>
 	</div>
+	<!-- Demonstrating Well with a row showing 4 columns of default wells -->
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-3">
@@ -77,6 +85,7 @@
 			</div>	
 		</div>
 	</div>
+	<!-- Demonstrating Well with a row showing 6 columns of small wells -->
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-2">
@@ -99,11 +108,15 @@
 			</div>
 		</div>
 	</div>
+	<!-- Added a Page header for cosmetic reasons, just to present text on Wells, example 2 -->
 	<div class="container">
 		<div class="page-header">
 			<h1 class="text-center">Example Buttons <small> In Well and Not In Well</small></h1>
 		</div>
 	</div>	
+	<!-- Demonstrating Well with a container of 2 rows to display difference with and without well-->
+	<!-- First row shows 2 columns of default wells, each having 3 buttons -->
+	<!-- Second row shows 2 columns, each having 3 buttons, without any wells -->
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-6">
